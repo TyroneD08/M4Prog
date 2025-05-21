@@ -25,3 +25,10 @@ ALTER TABLE `huisdieren`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
+
+SELECT * FROM dieren LIMIT 2;
+
+
+SELECT * FROM dieren LIMIT 3 OFFSET 0;
+
+
