@@ -60,3 +60,28 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+
+
+
+
+INSERT INTO `huisdieren` (`id`, `naam`, `eigenaar`, `typedier`, `leeftijd`, `geboortedatum`) 
+VALUES 
+(NULL, 'koning hamster', 'joep', 'hamster', '1', '2024-02-01'),
+(NULL, 'miss fluffy', 'marije', 'hamster', '2', '2024-02-01'),
+(NULL, 'knager', 'joep', 'hamster', '2', '2021-02-21'),
+(NULL, 'minizebra', 'marije', 'hamster', '1', '2014-02-21');
+
+select * from huisdieren where leeftijd >= 1;
+
+select * from huisdieren where leeftijd <= 1;
+
+select * from huisdieren where leeftijd = 1;
+
+select * from huisdieren where eigenaar = joep;
+
+select * from huisdieren where eigenaar = marije;
+
+
+select * from huisdieren where leeftijd = 1 AND 2;
+
+select * from huisdieren where eigenaar = marije AND joep;
