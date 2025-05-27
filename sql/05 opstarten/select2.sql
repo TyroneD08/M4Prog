@@ -11,8 +11,3 @@ ON
   huisdieren.eigenaarid = huisdiereigenaar.id
 WHERE 
   huisdieren.id = 1;
-
-
-
-
-/
