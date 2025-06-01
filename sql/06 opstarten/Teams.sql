@@ -72,6 +72,7 @@ ORDER BY
 
 
     /////////
+    /ik weet niet of het alle 3 onderelkaar moest, raakte beetje in de war/
     
     SELECT
     tl.id AS teamlidid,
