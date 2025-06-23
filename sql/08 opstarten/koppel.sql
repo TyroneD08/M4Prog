@@ -18,8 +18,8 @@ CREATE TABLE gesprek (
 );
 
 
-INSERT INTO helpdeskmedewerker (id, naam) VALUES (1, 'Sofie'), (2, 'Joris');
-INSERT INTO beller (id, naam) VALUES (1, 'Anna'), (2, 'Bram');
+INSERT INTO helpdeskmedewerker (id, naam) VALUES (1, 'spot'), (2, 'xiaoshi');
+INSERT INTO beller (id, naam) VALUES (1, 'cheng'), (2, 'tyrone');
 INSERT INTO gesprek (id, beller_id, helpdeskmedewerker_id) VALUES 
     (1, 1, 2),
     (2, 2, 1);
